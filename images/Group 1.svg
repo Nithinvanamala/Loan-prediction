@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="103" height="74" viewBox="0 0 103 74">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="49" height="74" transform="translate(0.461 -0.142)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-91 -75.858)">
+    <rect id="Rectangle_3" data-name="Rectangle 3" width="103" height="48" transform="translate(91 86.858)" fill="#fff"/>
+    <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(96.539 76)" clip-path="url(#clip-path)">
+      <g id="logo" transform="translate(-0.215 18.194)">
+        <path id="Path_1" data-name="Path 1" d="M26.018,5.627V27.764H2a2.006,2.006,0,0,1-2-2.012V5.627Z" transform="translate(0 8.46)" fill="#ff5574"/>
+        <path id="Path_2" data-name="Path 2" d="M22,5.627V25.752a2.006,2.006,0,0,1-2,2.012H11.992V5.627Z" transform="translate(18.029 8.46)" fill="#ffc043"/>
+        <path id="Path_3" data-name="Path 3" d="M38.027,0a2.006,2.006,0,0,1,2,2.012v8.05H0V2.012A2.006,2.006,0,0,1,2,0Z" transform="translate(0 0)" fill="#6168ff"/>
+        <path id="Path_4" data-name="Path 4" d="M25.029,27.446l12.79-16.735c1.226-1.533,2.394-2.877,3.679-4.4V6.188H26.2V2.02H47.745l-.059,3.229L35.074,21.75c-1.168,1.585-2.335,2.994-3.622,4.458v.117H47.979v4.111H25.029Z" transform="translate(37.63 3.036)" fill="#222"/>
+        <rect id="Rectangle_2" data-name="Rectangle 2" width="5.138" height="28.42" transform="translate(92.372 5.056)" fill="#222"/>
+        <path id="Path_5" data-name="Path 5" d="M42.8,10.1c0-2.936-.059-5.343-.234-7.692h4.554l.293,4.7h.117A10.386,10.386,0,0,1,56.87,1.763c3.912,0,9.987,2.349,9.987,12.1V30.83H61.719V14.447c0-4.58-1.7-8.4-6.548-8.4a7.307,7.307,0,0,0-6.891,5.286,7.458,7.458,0,0,0-.351,2.407V30.83H42.8Z" transform="translate(63.991 2.646)" fill="#222"/>
+        <path id="Path_6" data-name="Path 6" d="M77.279,29.738a18.859,18.859,0,0,1-8.118,1.644c-8.525,0-14.071-5.814-14.071-14.5,0-8.749,5.957-15.091,15.186-15.091A17.1,17.1,0,0,1,77.4,3.254L76.227,7.247A11.861,11.861,0,0,0,70.273,5.9c-6.483,0-9.987,4.815-9.987,10.746,0,6.576,4.2,10.629,9.811,10.629A14.547,14.547,0,0,0,76.4,25.862Z" transform="translate(82.824 2.683)" fill="#222"/>
+      </g>
+    </g>
+    <text id="LP" transform="translate(141 124.858)" font-size="36" font-family="ComicSansMS, Comic Sans MS"><tspan x="0" y="0">LP</tspan></text>
+  </g>
+</svg>
