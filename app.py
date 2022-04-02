@@ -2,9 +2,11 @@ from logging import debug
 from flask import Flask, render_template, request 
 import utils  
 from utils import preprocessdata 
+import webbrowser
+from flask_ngrok import run_with_ngrok
 
 app = Flask(__name__) 
-
+run_with_ngrok(app)
 @app.route('/') 
 def home(): 
     return render_template('index.html') 
@@ -23,11 +25,11 @@ def predict():
         Credit_History = request.form.get('Credit_History')   
         Property_Area = request.form.get('Property_Area')  
 
-    prediction = utils.preprocessdata(Gender, Married, Education, Self_Employed, ApplicantIncome,
-       CoapplicantIncome, LoanAmount, Loan_Amount_Term, Credit_History,
+    prediction = utils.preprocessdata( Education, Self_Employed, ApplicantIncome,
+        LoanAmount, Loan_Amount_Term, Credit_History,
        Property_Area)
 
     return render_template('predict.html', prediction=prediction) 
 
 if __name__ == '__main__': 
-    app.run(debug=True) 
+    app.run() 
